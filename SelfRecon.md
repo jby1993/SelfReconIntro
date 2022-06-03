@@ -89,8 +89,7 @@ SelfRecon跟一些基于显式或隐式表示的方法的比较。总体来说�
 
 另外，基于SelfRecon的重建，可以提取高质量的纹理avatar，进而可以进行驱动等有趣的应用。
 
-https://user-images.githubusercontent.com/14065422/171911164-1bc6ae28-a0db-460b-9dd6-1f8a48604981.mp4
-
+https://user-images.githubusercontent.com/14065422/171916395-6889d2dc-e30a-44f0-b38b-176c9d822f40.mp4
 
 更多结果和介绍，请参考SelfRecon的[项目主页](https://jby1993.github.io/SelfRecon/)与[文章](https://arxiv.org/abs/2201.12792)。
 
