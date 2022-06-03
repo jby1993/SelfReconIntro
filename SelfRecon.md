@@ -35,10 +35,7 @@
 
 重建效果上，SelfRecon基于隐式神经表示和神经渲染，可以为穿着各式衣物的人重建出空时一致的网格序列，并能够准确恢复宽松衣物的动态。相关重建效果如下视频所示。
 
-<video id="video" controls="" preload="none" poster="none">
-<source id="mp4" src="videos/results.mp4" type="video/mp4">
-</video>
-
+https://user-images.githubusercontent.com/14065422/171916128-5d391cc3-9c18-4155-b877-69612308a472.mp4
 
 <p align="center">
     <em>SelfRecon: 重建展示</em>
@@ -57,10 +54,8 @@ SelfRecon使用一个多层感知机网络f来表示基准空间的符号距离�
 
 如下所示，SelfRecon的前向变形场分为两部分，第一部分主要建模由人体运动带动的衣物的非刚性变形，能够较精准地建模宽松衣物的形变。第二部分使用预计算的蒙皮变形场和每帧的人物铰链姿态来表达人体的运动。
 
-<video id="video" controls="" preload="none" poster="none">
-<source id="mp4" src="videos/forward_deformation.mp4" type="video/mp4">
-</video>
 
+https://user-images.githubusercontent.com/14065422/171910826-44b1afc0-4b34-487b-bf70-6b7ca87134f0.mp4
 
 <p align="center">
     <em>SelfRecon: 前向变形图</em>
@@ -69,11 +64,7 @@ SelfRecon使用一个多层感知机网络f来表示基准空间的符号距离�
 
 如下所示，在计算射线和隐式曲面的交点的时候，SelfRecon首先考虑从相机发出的一条射线与显式网格的交点，然后利用显式网格的一致拓扑性，使用重心坐标获得该点在基准网格上的对应点。由于显式网格是隐式曲面的分片线性估计，该交点应接近于跟隐式曲面的准确交点P。利用显式网格的交点作为P的初值，迭代求解一个优化能量就能快速得到射线和隐式曲面的准确交点。然后，利用隐式微分公式，即可得到P关于各优化变量的求导，使得整个优化可以端到端地进行。
 
-
-<video id="video" controls="" preload="none" poster="none">
-<source id="mp4" src="videos/non-rigid_ray-casting.mp4" type="video/mp4">
-</video>
-
+https://user-images.githubusercontent.com/14065422/171910904-39421795-5175-41f3-93eb-4a54f6ff9e3d.mp4
 
 <p align="center">
     <em>SelfRecon: 可微非刚性射线投射</em>
@@ -98,9 +89,7 @@ SelfRecon跟一些基于显式或隐式表示的方法的比较。总体来说�
 
 另外，基于SelfRecon的重建，可以提取高质量的纹理avatar，进而可以进行驱动等有趣的应用。
 
-<video id="video" controls="" preload="none" poster="none">
-<source id="mp4" src="videos/app.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/14065422/171911164-1bc6ae28-a0db-460b-9dd6-1f8a48604981.mp4
 
 
 更多结果和介绍，请参考SelfRecon的[项目主页](https://jby1993.github.io/SelfRecon/)与[文章](https://arxiv.org/abs/2201.12792)。
