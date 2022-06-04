@@ -58,14 +58,14 @@ https://user-images.githubusercontent.com/14065422/171910904-39421795-5175-41f3-
 </p>
 <br>
 
-以下视频展示了SelfRecon各个模块的有效性。如下所示，虽然仅使用遮罩损失也能够恢复整体的人体形状，但相关结果并无法重建目标对象正确的凹凸形状。而在添加使用了神经渲染损失之后，可以发现重建结果得到明显改进，这也证明了颜色信息的重要作用。进一步，SelfRecon也支持利用预测的法向对优化过程进行额外监督，从而进一步提高SelfRecon的重建质量。
+下图展示了SelfRecon各个模块的有效性。如下所示，虽然仅使用遮罩损失也能够恢复整体的人体形状，但相关结果并无法重建目标对象正确的凹凸形状。而在添加使用了神经渲染损失之后，可以发现重建结果得到明显改进，这也证明了颜色信息的重要作用。进一步，SelfRecon也支持利用预测的法向对优化过程进行额外监督，从而进一步提高SelfRecon的重建质量。
 
 <p align="center">
     <img src="images/ablation.png" alt> <br>
     <em>SelfRecon各损失的作用</em>
 </p>
 
-以下视频展示了SelfRecon与当前最优方法的定性对比。如下所示，SelfRecon获得了state-of-the-art的重建效果。效果上，SelfRecon可以对宽松衣物进行准确的建模，在得到光滑曲面的同时，还能较好地恢复一些几何细节，包括衣物的褶皱，手指和面部特征等。
+下图展示了SelfRecon与当前最优方法的定性对比。如下所示，SelfRecon获得了state-of-the-art的重建效果。效果上，SelfRecon可以对宽松衣物进行准确建模，在得到光滑曲面的同时，还能较好地恢复一些几何细节，包括衣物的褶皱，手指和面部特征等。
 
 <p align="center">
     <img src="images/compare2.png" alt> <br>
