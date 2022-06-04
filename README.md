@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/14065422/171910904-39421795-5175-41f3-
 </p>
 <br>
 
-下图展示了SelfRecon各个模块的有效性。如下所示，虽然仅使用遮罩损失也能够恢复整体的人体形状，但相关结果并无法重建目标对象正确的凹凸形状。而在添加使用了神经渲染损失之后，可以发现重建结果得到明显改进，这也证明了颜色信息的重要作用。进一步，SelfRecon也支持利用预测的法向对优化过程进行额外监督，从而进一步提高SelfRecon的重建质量。
+下图展示了SelfRecon各个损失能量项的有效性。如下所示，虽然仅使用遮罩损失也能够恢复整体的人体形状，但相关结果并无法重建目标对象正确的凹凸形状。而在添加使用了神经渲染损失之后，可以发现重建结果得到明显改进，这也证明了颜色信息的重要作用。进一步，SelfRecon也支持利用预测的法向对优化过程进行额外监督，从而进一步提高SelfRecon的重建质量。
 
 <p align="center">
     <img src="images/ablation.png" alt> <br>
@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/14065422/171910904-39421795-5175-41f3-
     <em>SelfRecon与其他方法的比较</em>
 </p>
 
-另外，SelfRecon的重建结果天然地支持Pose信息驱动，以下视频展示了相关驱动效果。
+另外，SelfRecon的重建结果天然地支持高清纹理提取和姿态驱动，以下视频展示了相关驱动效果。
 
 https://user-images.githubusercontent.com/14065422/171916395-6889d2dc-e30a-44f0-b38b-176c9d822f40.mp4
 
