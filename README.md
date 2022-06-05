@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/49339865/171988891-8acc57a8-e2a9-4b2e-
 然而，如此高昂的人力成本和时间成本、以及技术上的复杂性和专业性要求不可避免地导致相关方法难以推广至一般消费市场。另一方面，随着移动端手机设备的普及，单目RGB数据开始变得唾手可得，因此若**仅仅依赖单目RGB数据就能高效便捷地获取普通对象的高质量可驱动的数字化身**，将切实地推动虚拟数字人及其相关技术应用与发展，而这也是三维视觉以及图形学领域一直致力于的研究目标。
 
 ---
-基于上述观察，中科大[张举勇教授](http://staff.ustc.edu.cn/~juyong/)课题组联合[杭州像衍科技有限公司](https://idr.ai/)与浙江大学，近期一同**提出一种基于单目RGB视频的高保真三维人体重建算法——SelfRecon**，该算法仅需输入一段十几秒的目标对象的自转视频，就可恢复重建该对象的高保真数字化身。当前，相关工作已被CVPR 2022接收，并将于CVPR会议期间进行口头报告。
+为此，中科大[张举勇教授](http://staff.ustc.edu.cn/~juyong/)课题组联合[杭州像衍科技有限公司](https://idr.ai/)与浙江大学，近期一同**提出一种基于单目RGB视频的高保真三维人体重建算法——SelfRecon**，该算法仅需输入目标对象一段十几秒的自转视频，即可恢复重建该对象的高保真数字化身。该研究工作已被CVPR 2022接收，并将于CVPR会议期间进行口头报告。
 
 - 文章链接: https://arxiv.org/abs/2201.12792
 - 项目主页: https://jby1993.github.io/SelfRecon/
@@ -79,5 +79,3 @@ https://user-images.githubusercontent.com/14065422/171910904-39421795-5175-41f3-
 https://user-images.githubusercontent.com/14065422/171916395-6889d2dc-e30a-44f0-b38b-176c9d822f40.mp4
 
 更多结果和介绍，请参考SelfRecon的[项目主页](https://jby1993.github.io/SelfRecon/)与[文章](https://arxiv.org/abs/2201.12792)。
-
-最后，我们相信SelfRecon将有效推动虚拟数字人的应用与发展。
