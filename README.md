@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/49339865/171988891-8acc57a8-e2a9-4b2e-
 然而，如此高昂的人力成本和时间成本、以及技术上的复杂性和专业性要求不可避免地导致相关方法难以推广至一般消费市场。另一方面，随着移动端手机设备的普及，单目RGB数据开始变得唾手可得，因此若**仅仅依赖单目RGB数据就能高效便捷地获取普通对象的高质量可驱动的数字化身**，将切实地推动虚拟数字人及其相关技术应用与发展，而这也是三维视觉以及图形学领域一直致力于的研究目标。
 
 ---
-为此，中科大[张举勇教授](http://staff.ustc.edu.cn/~juyong/)课题组联合[杭州像衍科技有限公司](https://idr.ai/)与浙江大学，近期一同**提出一种基于单目RGB视频的高保真三维人体重建算法——SelfRecon**，该算法仅需输入目标对象一段十几秒的自转视频，即可恢复重建该对象的高保真数字化身。该研究工作已被CVPR 2022接收，并将于CVPR会议期间进行口头报告。
+为此，中科大[张举勇教授](http://staff.ustc.edu.cn/~juyong/)课题组联合[杭州像衍科技有限公司](https://idr.ai/)与浙江大学，于近期一同提出**一种基于单目RGB视频的高保真三维人体重建算法——SelfRecon**，该算法仅需输入目标对象一段十几秒的自转视频，即可恢复重建该对象的高保真数字化身。该研究工作已被CVPR 2022接收，并将于CVPR会议期间进行口头报告。
 
 - 文章链接: https://arxiv.org/abs/2201.12792
 - 项目主页: https://jby1993.github.io/SelfRecon/
@@ -44,9 +44,9 @@ https://user-images.githubusercontent.com/49339865/171988891-8acc57a8-e2a9-4b2e-
     <em>基于SelfRecon生成的纹理模型</em>
 </p>
 
-SelfRecon的重建效果如下所示。可以发现该算法能够准确恢复各种衣服类型的三维人体几何，并有效还原诸多宽松衣服类型的动态效果。同时得益于SelfRecon输入的简易性，可预见地，SelfRecon将大幅度降低人们获取个人数字化身的成本与难度。
+SelfRecon的重建效果如下所示。对使用普通智能手机拍摄的自转视频，SelfRecon可以准确跟踪三维动态几何，并有效还原宽松衣服的动态效果。同时得益于SelfRecon输入的简易性，可预见地，SelfRecon将大幅度降低人们获取个人数字化身的成本与难度。
 
-https://user-images.githubusercontent.com/14065422/171916128-5d391cc3-9c18-4155-b877-69612308a472.mp4
+https://user-images.githubusercontent.com/14065422/172185389-d073403d-346c-4bb8-b0f0-849a73a96f32.mp4
 
 <p align="center">
     <em>SelfRecon: 重建展示</em>
@@ -71,7 +71,7 @@ https://user-images.githubusercontent.com/14065422/171910826-44b1afc0-4b34-487b-
 
 在计算射线和隐式基准曲面交点的过程中，SelfRecon首先会计算射线与当前帧显式网格的交点，接着SelfRecon利用当前帧显式网格和基准显式网格的拓扑一致性来获得该交点在基准显式网格上的对应点。同时，由于显式网格理论上是隐式曲面的分片线性估计，因此该交点应接近于射线与隐式曲面的准确交点。基于此，SelfRecon将射线与基准显式网格的交点作为射线与基准隐式表示交点的初值，并迭代求解相关能量来快速生成射线和基准隐式曲面的准确交点P。此外，SelfRecon通过推导隐式表示关于P的隐式微分公式来生成P关于各优化变量的一阶导数，进而使得整个渲染过程可以有效反向传播梯度，并端到端地优化整个渲染过程。相关过程如下所示。
 
-https://user-images.githubusercontent.com/14065422/171910904-39421795-5175-41f3-93eb-4a54f6ff9e3d.mp4
+https://user-images.githubusercontent.com/14065422/172185109-89ebe421-616d-4555-a7bd-5f90fc0f5a27.mp4
 
 <p align="center">
     <em>SelfRecon: 可微非刚性射线投射</em>
