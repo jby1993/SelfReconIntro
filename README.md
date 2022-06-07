@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/49339865/171988891-8acc57a8-e2a9-4b2e-
 ---
 为此，中科大[张举勇教授](http://staff.ustc.edu.cn/~juyong/)课题组联合[杭州像衍科技有限公司](https://idr.ai/)与浙江大学，于近期一同提出**一种基于单目RGB视频的高保真三维人体重建算法——SelfRecon**，该算法仅需输入目标对象一段十几秒的自转视频，即可恢复重建对象的高保真数字化身。该研究工作已被CVPR 2022接收，并将于CVPR会议期间进行口头报告。
 
-- 文章链接: https://arxiv.org/abs/2201.12792
+- 论文链接: https://arxiv.org/abs/2201.12792
 - 项目主页: https://jby1993.github.io/SelfRecon/
 - 代码链接: https://github.com/jby1993/SelfReconCode 
 
@@ -92,4 +92,4 @@ https://user-images.githubusercontent.com/14065422/172185109-89ebe421-616d-4555-
 
 https://user-images.githubusercontent.com/14065422/171916395-6889d2dc-e30a-44f0-b38b-176c9d822f40.mp4
 
-关于SelfRecon的更多算法细节与实验结果，请参考[项目主页](https://jby1993.github.io/SelfRecon/)与[文章](https://arxiv.org/abs/2201.12792)。若想了解更多数字人的便捷建模与真实应用，请参考[杭州像衍科技有限公司](https://idr.ai/)。
+关于SelfRecon的更多算法细节与实验结果，请参考[项目主页](https://jby1993.github.io/SelfRecon/)与[论文](https://arxiv.org/abs/2201.12792)。若想了解更多数字人的便捷建模与真实应用，请参考[杭州像衍科技有限公司](https://idr.ai/)。
