@@ -1,4 +1,4 @@
-# SelfReconIntro
+# CVPR 2022 Oral | 一段单目自转视频即可创建你的高保真数字化身，so easy！
 
 <!-- ![image](https://user-images.githubusercontent.com/49339865/172137314-86046b02-7708-4130-9bd1-8c1acf6619a0.png) -->
 
