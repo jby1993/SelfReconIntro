@@ -94,4 +94,4 @@ https://user-images.githubusercontent.com/14065422/172185109-89ebe421-616d-4555-
 
 https://user-images.githubusercontent.com/14065422/171916395-6889d2dc-e30a-44f0-b38b-176c9d822f40.mp4
 
-更多结果和介绍，请参考SelfRecon的[项目主页](https://jby1993.github.io/SelfRecon/)与[文章](https://arxiv.org/abs/2201.12792)。若想了解更多数字人的便捷建模与真实应用，可参考[杭州像衍科技有限公司](https://idr.ai/)。
+关于SelfRecon的更多算法细节与实验结果，请参考[项目主页](https://jby1993.github.io/SelfRecon/)与[文章](https://arxiv.org/abs/2201.12792)。若想了解更多数字人的便捷建模与真实应用，请参考[杭州像衍科技有限公司](https://idr.ai/)。
