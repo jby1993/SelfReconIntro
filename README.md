@@ -1,8 +1,10 @@
 # SelfReconIntro
 
-![image](https://user-images.githubusercontent.com/49339865/172137314-86046b02-7708-4130-9bd1-8c1acf6619a0.png)
+<!-- ![image](https://user-images.githubusercontent.com/49339865/172137314-86046b02-7708-4130-9bd1-8c1acf6619a0.png) -->
 
-近年来，随着图形技术的快速发展，各类虚拟数字人开始走入我们的日常，如体育明星谷爱凌的数智分身“Meet Gu”、数字航天员小诤、百度智能云AI手语主播、腾讯3D手语数智人“聆语”等纷纷亮相。实际上，三维数字人技术于我们的日常生活早有应用，如早在2015年上映的电影《速度与激情7》中，就曾使用三维数字人技术帮助复活已故演员保罗沃克。
+<img width="960" alt="DigitalHuman" src="https://user-images.githubusercontent.com/49339865/172284158-7cda3ca1-89c0-4944-b13d-fa24cd832bb4.png">
+
+近年来，随着图形技术的快速发展，各类虚拟数字人开始走入我们的日常，如数字航天员小诤、百度智能云AI手语主播、腾讯3D手语数智人“聆语”等纷纷亮相。实际上，三维数字人技术于我们的日常生活早有应用，如早在2015年上映的电影《速度与激情7》中，就曾使用三维数字人技术帮助复活已故演员保罗沃克。
 
 https://user-images.githubusercontent.com/49339865/172138086-a647f41f-baaf-4ca4-9218-e5a0ebd70851.mp4
 
